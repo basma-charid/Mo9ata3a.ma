@@ -1,0 +1,11 @@
+For the front end, we leverage React as our primary JavaScript library to construct efficient and scalable web applications. Our emphasis extends to optimizing the user experience by minimizing the heavy loading of web pages. We achieve this through strategic implementation of tools such as React Router DOM for seamless navigation and React Reveal for incorporating engaging animations throughout our application.
+
+To empower our admin dashboard, we harness the capabilities of the latest version of Recharts.js. This enables us to display real-time graphs, keeping administrators well-informed about the current state of the application. In addition, we employ the React-Bootstrap framework to efficiently manage tags, utilize pre-designed HTML, and integrate styled React components seamlessly.
+
+Furthermore, we ensure user interaction is intuitive and informative by employing toast notifications to highlight successful operations. This holistic approach to front-end development not only prioritizes functionality but also focuses on delivering a visually appealing and responsive user interface.
+
+
+
+using and implementing the react advanced features like reusable components , best client side rendering and hydration for better user experience 
+
+fo the architecture  : react is  freestyle library but for ensuring the maitainable structure we have follow the folder structure with naming convetions 

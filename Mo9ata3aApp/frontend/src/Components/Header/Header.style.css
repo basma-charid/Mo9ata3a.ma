@@ -1,0 +1,61 @@
+
+.container {
+    width: 100%;
+    height: 90vh;
+    position: relative;
+}
+
+.image {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+
+}
+
+
+.container-2 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+.title {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+    z-index: 2001;
+    letter-spacing: 6px;
+    text-transform: capitalize;
+
+}
+
+.forOpa {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    z-index: 200;
+    opacity: .4;
+}
+.btns {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn{
+    text-decoration: none;
+    text-transform: capitalize;
+    color: white;
+    font-size: 20px;
+    padding: 14px 24px;
+    z-index: 2002;
+    margin: 20px  29px;
+    background-color: rgb(38, 113, 159);
+    border-radius: 10px;
+    
+}
+

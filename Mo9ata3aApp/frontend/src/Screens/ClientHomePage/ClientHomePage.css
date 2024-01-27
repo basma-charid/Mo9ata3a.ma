@@ -1,0 +1,13 @@
+
+
+
+.area {
+    min-width: 300px;
+    height: 200px;
+    background-color: rgb(28, 32, 37);
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

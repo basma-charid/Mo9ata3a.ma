@@ -1,0 +1,31 @@
+version: '3.9'
+
+services:
+  mysql:
+    image: mysql:latest
+    container_name: mysql-container
+    environment:
+      MYSQL_ROOT_PASSWORD: Mounaim_user2001
+      MYSQL_DATABASE: digitalservice
+      MYSQL_USER: root
+      MYSQL_PASSWORD: Mounaim_user2001
+    ports:
+      - "3301:3306"
+
+  spring-boot-app:
+    image: backend:1.0
+    container_name: spring-boot-container
+    ports:
+      - "8082:8082"
+    depends_on:
+      - mysql
+    environment:
+      SPRING_DATASOURCE_URL: jdbc:mysql://mysql:3301/digitalservice
+      SPRING_DATASOURCE_USERNAME: root
+      SPRING_DATASOURCE_PASSWORD: Mounaim_user2001
+
+  react-app:
+    image: frontend:1.0
+    container_name: react-container
+    ports:
+      - "3000:3000"
